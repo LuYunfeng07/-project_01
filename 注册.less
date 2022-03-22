@@ -1,0 +1,86 @@
+@import url(./base.css);
+@vw: 3.75vw;
+body {
+    height: (667 / @vw);
+}
+.num {
+    width: (350 / @vw);
+    height: (30 / @vw);
+    border: 1px solid rgb(156, 156, 156);
+    line-height: (30 / @vw);
+    margin: 0 auto;
+    margin-top: (10 / @vw);
+    box-sizing: border-box;
+    border-radius: 5px 5px 0 0;
+    i {
+        margin: 0 (10 / @vw);
+        color: grey;
+    }
+}
+.log {
+    width: (350 / @vw);
+    height: (30 / @vw);
+    border: 1px solid rgb(156, 156, 156);
+    border-top: 0;
+    line-height: (30 / @vw);
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius:0 0 5px 5px;
+    i {
+        margin: 0 (10 / @vw);
+        color: grey;
+    }
+}
+
+.next {
+    width: (350 / @vw);
+    height: (30 / @vw);
+    background-color: rgb(170, 23, 23);
+    margin: (10 / @vw) auto (450 / @vw);
+    border-radius: 5px;
+    text-align: center;
+    a {
+        line-height: (30 / @vw);
+        font-size: (12 / @vw);
+        color: rgba(252, 252, 252, 0.4);
+    }
+}
+.text {
+    font-size: (12 / @vw);
+    text-align: center;
+    margin: 0 auto (20 / @vw);
+    color: grey;
+}
+.ways {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    p {
+        width: (260 / @vw);
+        font-size: (12 / @vw);
+        text-align: center;
+        margin: 0 auto;
+        color: grey;
+    }
+    .pic {
+        width: (60 / @vw);
+        .wechat {
+            text-align: center;
+            line-height: (30 / @vw);
+            width: (30 / @vw);
+            height: (30 / @vw);
+            border: 1px solid rgb(156, 156, 156);
+            border-radius: 50%;
+            margin-left: (14 / @vw);
+            i {
+                font-size: (20 / @vw);
+            }
+        }
+        p {
+            width: (60 / @vw);
+            margin: (10 / @vw) 0;
+            font-size: (12 / @vw);
+            color: grey;
+        }
+    }
+}

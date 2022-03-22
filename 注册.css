@@ -1,0 +1,84 @@
+@import url(base.css);
+body {
+  height: 177.86666667vw;
+}
+.num {
+  width: 93.33333333vw;
+  height: 8vw;
+  border: 1px solid #9c9c9c;
+  line-height: 8vw;
+  margin: 0 auto;
+  margin-top: 2.66666667vw;
+  box-sizing: border-box;
+  border-radius: 5px 5px 0 0;
+}
+.num i {
+  margin: 0 2.66666667vw;
+  color: grey;
+}
+.log {
+  width: 93.33333333vw;
+  height: 8vw;
+  border: 1px solid #9c9c9c;
+  border-top: 0;
+  line-height: 8vw;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-radius: 0 0 5px 5px;
+}
+.log i {
+  margin: 0 2.66666667vw;
+  color: grey;
+}
+.next {
+  width: 93.33333333vw;
+  height: 8vw;
+  background-color: #aa1717;
+  margin: 2.66666667vw auto 120vw;
+  border-radius: 5px;
+  text-align: center;
+}
+.next a {
+  line-height: 8vw;
+  font-size: 3.2vw;
+  color: rgba(252, 252, 252, 0.4);
+}
+.text {
+  font-size: 3.2vw;
+  text-align: center;
+  margin: 0 auto 5.33333333vw;
+  color: grey;
+}
+.ways {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+.ways p {
+  width: 69.33333333vw;
+  font-size: 3.2vw;
+  text-align: center;
+  margin: 0 auto;
+  color: grey;
+}
+.ways .pic {
+  width: 16vw;
+}
+.ways .pic .wechat {
+  text-align: center;
+  line-height: 8vw;
+  width: 8vw;
+  height: 8vw;
+  border: 1px solid #9c9c9c;
+  border-radius: 50%;
+  margin-left: 3.73333333vw;
+}
+.ways .pic .wechat i {
+  font-size: 5.33333333vw;
+}
+.ways .pic p {
+  width: 16vw;
+  margin: 2.66666667vw 0;
+  font-size: 3.2vw;
+  color: grey;
+}
